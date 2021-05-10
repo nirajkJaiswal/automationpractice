@@ -1,13 +1,15 @@
-import Page from './page';
+import { BasePage } from "../index";
 
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class SecurePage extends Page {
-    /**
-     * define selectors using getter methods
-     */
-    get flashAlert () { return $('#flash') }
+class SecurePage extends BasePage {
+  /**
+   * define selectors using getter methods
+   */
+  get flashAlert() {
+    return $("#flash");
+  }
 }
 
 export default new SecurePage();
