@@ -1,0 +1,1 @@
+export{BasePage} from './pageobjects/base.page';
